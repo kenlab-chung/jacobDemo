@@ -6,7 +6,7 @@ JACOB is a JAVA-COM Bridge that allows you to call COM Automation components fro
 - java jdk1.8.0_211
 - jacob-1.19
 
-# C# com 前面步骤：
+# C# com 签名步骤：
 - 打开Visual Studio Command Prompt 输入：sn -k XXX.snk 生成XXX.snk 文件
 - 打开 Project-->Properties菜单  在Signing标签中选中 Sign the assembly,选择刚刚生成的强名称文件XXX.snk
 - 编译程序Debug目录中会生成 XXX.dll 和XXX.tlb
