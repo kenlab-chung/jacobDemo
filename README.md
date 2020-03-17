@@ -18,3 +18,5 @@ JACOB is a JAVA-COM Bridge that allows you to call COM Automation components fro
 
 # com.jacob.com.ComFailException: Can't co-create object 处理办法：
 - 将C# com的目标平台设置为x64。
+#注意
+- 事件只能接收string参数，或者无参数。接收其它数据类型没有进一步研究。
